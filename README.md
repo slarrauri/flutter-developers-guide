@@ -6,5 +6,5 @@ Espero les sea de utilidad.
 
 Si quieres contribuir al proyecto, sigue la guía de contribución. 
 
-Guía de contribución: TODO
+Guía de contribución: // TODO
 
