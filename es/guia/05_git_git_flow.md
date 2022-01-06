@@ -5,6 +5,14 @@ En la misma veremos el formato a utilizar para escribir los commits y crear bran
 
 Es importante mantener esta estructura ya que se utiliza para generar el versionado y changelog del proyecto. 
 
+- [Git & Git Flow](#git--git-flow)
+  - [Convenciones de estilo](#convenciones-de-estilo)
+  - [Branches](#branches)
+  - [Branch Permanentes](#branch-permanentes)
+  - [Branch Temporales](#branch-temporales)
+  - [Commits](#commits)
+  - [Git Flow](#git-flow)
+
 ## Convenciones de estilo
 Los nombres de directorios, ramas, etiquetas, commits deben cumplir con el siguiente formato:
 
@@ -94,19 +102,14 @@ ej: add(login/ui): update the text of login buttons
 NOTA: El texto debe ser descriptivo de lo que se hizo y legible. 
 
 **Tipos de Commits**
-`add`: para nuevas funcionalidades.
-`change`: para cambios en el código.
-`fix`: para arreglos.
-`hotfix`:para arreglos urgentes, prioritarios.
-`docs`: para cuando se escribe solo documentación. 
-`chore`: para tareas generales.
-`refactor`: para cambios en el código que no arregla un error, bug ni suma una nueva funcionalidad. 
-`style`: para cambios que no afectan al código, (white-space, formatting, missing semi-colons, etc).
-`test`: para agregar o cambiar los test. 
-`build`: para cambios que afectan al build o las dependencias. (packages, upgrades) 
-`init`: Init Commit. 
-`deprecate`: para codigo que sera removido del proyecto
-`remove`: para código removido 
+- ``add``: Código Nuevo que se agrega al repo. 
+- ``change`` ``update``: Cambio que se realiza en el codigo.
+- ``fix``, ``hotfix`` ``bugfix``: Corrección que se realizo en el Código.   
+- ``docs``: Cambio en la documentación. (sin cambio de código)  
+- ``refactor``: Refactor en el Código
+- ``deprecate``: Código que esta destinado a desaparecer, pero que aun se usa. 
+- ``delete``: Código que se elimino del repositorio. 
+- ``style``: Cambios en el codigo que mejoran su lectura.  
 
 **Scopes de Commits**
 El scope está definido por la arquitectura que se utilice en el proyecto, siendo la principal BLOC, posteriormente se agregarán otras arquitecturas. 
