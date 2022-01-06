@@ -50,6 +50,7 @@ El archivo README.md de tus aplicaciones flutter, es una herramienta muy util pa
 
 ## BONUS 2: El Archivo CHANGELOG.md 
 Este archivo te servirá para llevar un control de los cambios que hay en tu código. 
+[Ver Mas](es/bonus/02_archivo_changelog.md)
 
 ## BONUS 3: El Archivo WIDGETTREE.md 
 Este archivo te servirá para llevar un control de los cambios que hay en tu código. 
