@@ -1,19 +1,44 @@
-## Buenas Practicas Flutter
+# Buenas Practicas Flutter
 
 En este documento se detallan las buenas prácticas que el equipo de desarrollo debe implementar en la escritura de código.
 
 Sin nada más que agregar, ¡A darle Átomos!
 
-
+- [Buenas Practicas Flutter](#buenas-practicas-flutter)
+  - [readme File](#readme-file)
+  - [Changelog File](#changelog-file)
+  - [Control de Versiones](#control-de-versiones)
+  - [Imports](#imports)
+  - [Tipos de Variables](#tipos-de-variables)
+  - [Condicionales](#condicionales)
+  - [AS / IS](#as--is)
+  - [Spreed Collection](#spreed-collection)
+  - [Escapando Strings Largos](#escapando-strings-largos)
+  - [NULL Values](#null-values)
+  - [Arrow Functions](#arrow-functions)
+  - [Debuging](#debuging)
+  - [Extract Method](#extract-method)
+  - [List Builder](#list-builder)
+  - [Arquitectura BLOC](#arquitectura-bloc)
 
 ## readme File
 El proyecto debe contar con un archivo readme.md
 
 ## Changelog File
-
 El proyecto debe contar con un archivo changelog.md
 
+## Control de Versiones
 
+Para el control de versiones utilizamos Git con metodología basada en Git-Flow y la nomenclatura a utilizar está basado en el Versionado Semántico
+
+**Nomenclatura**: X.Y.Z+B
+
+|Column1  |Column2  |Column3  |
+|:--:|---------|---------|
+|X   |Mayor    | Suma 1 cuando se integra una branch que contenga un commit del tipo, ``BREAKING CHANG(!)``|
+|Y   |Minor    | Suma 1 cuando se integra una branch del tipo: feature, new, add|
+|Z   |Patch    | Suma 1 cuando se integra otro tipo de branch.|
+|B   |Build    | Suma uno con cada nuevo build que se libera en producción, es el número por el cual las Stores de Google y Apple, gestionan las apps.|
 
 ## Imports
 
@@ -226,3 +251,12 @@ resendClick: () {})
 
 )
 ```
+## Arquitectura BLOC 
+
+``providers``: Cambios que se apliquen dentro de esa capa.
+``models``: Cambios que apliquen dentro de ese directorio.
+``repositories``: Cambios que se apliquen dentro de ese directorio.
+``modules``: Cambios que se apliquen dentro de esta layer.
+``designs``: Cambios que se apliquen dentro de ese layer.
+``core``:  Cambios que se hagan en el core de la aplicación. 
+``tests``: cambios que se hagan en los directorios test.
