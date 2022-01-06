@@ -23,43 +23,54 @@ Este repositorio contiene documentación sobre, mejores practicas, guía de esti
 
 
 ## 00. Cheatsheet
-Una guía para consulta rápida de los puntos tratados en los otros documentos. 
+Una guía para consulta rápida de los puntos tratados en los otros documentos.  
+[LEER MAS](es/guia/00_cheatsheet.md)
 
 ## 01. Basic Dart
-Si ya sabes programar esta sección te servirá de guía rápida para entender el funcionamiento de Dart. 
+Si ya sabes programar esta sección te servirá de guía rápida para entender el funcionamiento de Dart.  
+[LEER MAS](es/guia/01_dart_basico.md)
 
 ## 02. Basic Flutter
-Al Igual que la anterior esta sección te servirá para entender rápidamente el funcionamiento de Flutter. 
+Al Igual que la anterior esta sección te servirá para entender rápidamente el funcionamiento de Flutter.  
+[LEER MAS](es/guia/02_flutter_basico.md)
 
 ## 03. guía de Estilos
-Aquí te detallo una guía de estilos para utilizar en tus desarrollos. Esto te ayudara a tener un código limpio y fácil de  leer. 
+Aquí te detallo una guía de estilos para utilizar en tus desarrollos. Esto te ayudara a tener un código limpio y fácil de  leer.  
+[LEER MAS](es/guia/03_guia_de_estilos.md)
 
 ## 04. Buenas Practicas
-Una guía de buenas practicas básicas para el desarrollo de aplicaciones Flutter. 
+Una guía de buenas practicas básicas para el desarrollo de aplicaciones Flutter.   
+[LEER MAS](es/guia/04_buenas_practicas.md)
 
 ## 05. Git & Git Flow
 Si ya sabes los comandos básicos de Git y el funcionamiento de Git Flow. 
-Aquí explico como los usamos en los equipos de desarrollo. 
+Aquí explico como los usamos en los equipos de desarrollo.  
+[LEER MAS](es/guia/05_git_git_flow.md)
 
 
 # BONUS
 
 ## BONUS01. El archivo README.md 
-
-El archivo README.md de tus aplicaciones flutter, es una herramienta muy util para transmitir información al equipo de desarrollo. 
+El archivo README.md de tus aplicaciones flutter, es una herramienta muy util para transmitir información al equipo de desarrollo.   
+[LEER MAS](es/bonus/01_archivo_readme.md)
 
 ## BONUS 2: El Archivo CHANGELOG.md 
-Este archivo te servirá para llevar un control de los cambios que hay en tu código. 
-[Ver Mas](es/bonus/02_archivo_changelog.md)
+Este archivo te servirá para llevar un control de los cambios que hay en tu código.    
+[LEER MAS](es/bonus/02_archivo_changelog.md)
 
 ## BONUS 3: El Archivo WIDGETTREE.md 
-Este archivo te servirá para llevar un control de los cambios que hay en tu código. 
+Este archivo te servirá para llevar un control de los cambios que hay en tu código.    
+[LEER MAS ](es/bonus/03_archivo%20widgettree.md)
 
 ## Bonus 4: Material Necesario para publicar en las Stores (Google Play / Apple Store)
-Aquí encontraras el material básico que necesitas para publicar tus apps en las stores (No es una guía de publicación)
+Aquí encontraras el material básico que necesitas para publicar tus apps en las stores (No es una guía de publicación)   
+[LEER MAS](es/bonus/04_materiales_stores.md)
 
 # Tutoriales
-una practica sección con tutoriales de cosas que pasan seguido
+una practica sección con tutoriales de cosas que pasan seguido  
+// TODO
+
+
 
 
 
