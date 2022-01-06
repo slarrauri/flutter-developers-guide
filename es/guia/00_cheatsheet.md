@@ -26,7 +26,7 @@ Para un descripción completa mira la Guía de Estilos Flutter
 
 Prefijos que utilizamos al realizar commits.
 
-- ``feat``, ``add``, ``new``: Código Nuevo que se agrega al repo. 
+- ``add``: Código Nuevo que se agrega al repo. 
 - ``change`` ``update``: Cambio que se realiza en el codigo.
 - ``fix``, ``hotfix`` ``bugfix``: Corrección que se realizo en el Código.   
 - ``docs``: Cambio en la documentación. (sin cambio de código)  
@@ -63,6 +63,7 @@ El Scope de los commits varia dependiendo de la arquitectura del proyecto, pero 
 - deprecate/
 - security/
 - performance/
+- cicd/
 
 
 ## Estimación de Tareas
