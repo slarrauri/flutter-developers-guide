@@ -1,0 +1,228 @@
+## Buenas Practicas Flutter
+
+En este documento se detallan las buenas prácticas que el equipo de desarrollo debe implementar en la escritura de código.
+
+Sin nada más que agregar, ¡A darle Átomos!
+
+
+
+## readme File
+El proyecto debe contar con un archivo readme.md
+
+## Changelog File
+
+El proyecto debe contar con un archivo changelog.md
+
+
+
+## Imports
+
+Usar rutas relativas dentro del directorio: `/lib`
+
+```dart
+import '../../../utils/dialog_utils.dart';
+
+import './utils/snackbar_utils.dart';
+
+// Para importar paquetes usar import
+
+import 'package:flutter/material.dart';
+```
+
+
+## Tipos de Variables
+Declaraciones de Variables Especificar el `Type`, evitar usar `var`
+
+```dart
+//SI
+
+int item = 10;
+
+final Car bar = Car_()_;
+
+String name = 'john';
+
+const int timeOut = 20;
+
+//NO
+
+var item = 10;
+
+final car = Car_()_;
+
+const timeOut = 2000;
+```
+
+## Condicionales
+
+Usar `if condition` en vez de `conditional expression` muchas veces tenemos que renderizar un widget según la plataforma. Si la expresión condicional retorna null nunca se mostrará el widget.
+
+```dart
+//SI
+Widget getText_(BuildContext context) {_
+return Row_(_
+    children:[
+    Text_("Hello")_,
+  if (Platform.isAndroid) Text_("Android")_
+  ]
+  );
+}
+
+//NO
+Widget getText_(BuildContext context) {_
+return Row_(_
+    children: [
+      Text_("Hello")_,
+  Platform.isAndroid ? Text_("Android")_ : null,
+  Platform.isAndroid ? Text_("Android")_ : SizeBox_()_,
+  Platform.isAndroid ? Text_("Android")_ : Container_()_,
+  ]
+  );
+}
+```
+
+
+## AS / IS
+Evitar usar `as` usar** `is`
+
+```dart
+//SI
+
+if (item is Animal)
+
+item.name = 'Lion';
+
+//NO
+
+(item as Animal).name = 'Lion';
+```
+
+
+## Spreed Collection
+
+Operador `spreed collection` Se usa para agregar una lista con valores a otra.
+
+```dart
+//SI
+
+var y = [4,5,6];
+
+var x = [1,2,...y];
+
+//NO
+
+var y = [4,5,6];
+
+var x = [1,2];
+
+x.addAll(y);
+```
+
+## Escapando Strings Largos
+
+raw string Opcional: Sirve para no tener que escapar caracteres.
+
+```dart
+var s = r'This is demo string \ and $';
+```
+
+## NULL Values
+Valores null En dart los valores null son iniciados automáticamente.
+```dart
+//SI
+
+int _item;
+
+//NO
+
+int _item = null;
+```
+
+
+## Arrow Functions
+
+The => (arrow) Para funciones que contienen solo una expresión.
+
+```dart
+//SI
+
+get width => right - left;
+
+Widget getProgressBar_()_ => CircularProgressIndicator_(_
+
+valueColor: AlwaysStoppedAnimation_<Color>(Colors.blue)_,
+
+);
+
+//NO
+
+get width {
+
+return right - left;
+
+}
+
+Widget getProgressBar_() {_
+
+return CircularProgressIndicator_(_
+
+valueColor: AlwaysStoppedAnimation_<Color>(Colors.blue)_,
+
+);
+
+}
+```
+
+## Debuging
+Usar debugPrint()
+
+`print()` y `debugPrint()` se usa para imprimir en la consola Aveces al usar `print()` la salida es demasiado grande y Android descarta algunas lineas, para evitar esto usar: `debugPrint ()`.
+
+## Extract Method
+```dart
+
+```
+Separar widgets en widgets mas pequeños.
+
+Cuando se llama a `setState()`, todos los widgets descendientes se reconstruyen.
+
+Por lo tanto, Dividir el widget en widget mas pequeños hace que `setState()` llame a la parte de la UI que necesita cambiar.
+
+
+## List Builder
+
+Use ListView.builder para listas largas
+
+Cuando trabaje con listas infinitas o listas muy grandes, Por lo general, es recomendable utilizar un constructor de `ListView` para mejorar el rendimiento.
+
+El constructor `ListView` predeterminado construye la lista completa a la vez.
+
+`ListView.builder` crea una lista diferida, cuando el usuario se desplaza hacia abajo en la lista,
+
+```dart
+Scaffold(
+
+appBar: CustomAppBar(title: "Verify Code"), // Sub Widget
+
+body: Container(
+
+child: Column(
+
+crossAxisAlignment: CrossAxisAlignment.start,
+
+children: <Widget>[
+
+TimerView( // Sub Widget
+
+key: _timerKey,
+
+resendClick: () {})
+
+],
+
+),
+
+),
+
+)
+```
