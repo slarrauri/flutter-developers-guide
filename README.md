@@ -12,28 +12,28 @@ Para tal fin se ha recopilado en este documento los lineamientos iniciales a ten
 
 - [Flutter-Developer-Guide](#flutter-developer-guide)
   - [00. Cheatsheet](#00-cheatsheet)
-  - [01. Basic Dart](#01-basic-dart)
-  - [02. Basic Flutter](#02-basic-flutter)
+  - [01. Basic Dart // TODO](#01-basic-dart--todo)
+  - [02. Basic Flutter // TODO](#02-basic-flutter--todo)
   - [03. guía de Estilos](#03-guía-de-estilos)
   - [04. Buenas Practicas](#04-buenas-practicas)
   - [05. Git & Git Flow](#05-git--git-flow)
 - [BONUS](#bonus)
   - [BONUS01. El archivo README.md](#bonus01-el-archivo-readmemd)
   - [BONUS 2: El Archivo CHANGELOG.md](#bonus-2-el-archivo-changelogmd)
-  - [BONUS 3: El Archivo WIDGETTREE.md](#bonus-3-el-archivo-widgettreemd)
-  - [Bonus 4: Material Necesario para publicar en las Stores (Google Play / Apple Store)](#bonus-4-material-necesario-para-publicar-en-las-stores-google-play--apple-store)
-- [Tutoriales](#tutoriales)
+  - [BONUS 3: El Archivo WIDGETTREE.md  // TODO](#bonus-3-el-archivo-widgettreemd---todo)
+  - [Bonus 4: Material Necesario para publicar en las Stores (Google Play / Apple Store) // TODO](#bonus-4-material-necesario-para-publicar-en-las-stores-google-play--apple-store--todo)
+- [Tutoriales // TODO](#tutoriales--todo)
 
 
 ## 00. Cheatsheet
 Una guía para consulta rápida de los puntos tratados en los otros documentos.  
 [LEER MAS](es/guia/00_cheatsheet.md)
 
-## 01. Basic Dart
+## 01. Basic Dart // TODO
 Si ya sabes programar esta sección te servirá de guía rápida para entender el funcionamiento de Dart.  
 [LEER MAS](es/guia/01_dart_basico.md)
 
-## 02. Basic Flutter
+## 02. Basic Flutter // TODO
 Al Igual que la anterior esta sección te servirá para entender rápidamente el funcionamiento de Flutter.  
 [LEER MAS](es/guia/02_flutter_basico.md)
 
@@ -61,17 +61,17 @@ El archivo README.md de tus aplicaciones flutter, es una herramienta muy util pa
 Este archivo te servirá para llevar un control de los cambios que hay en tu código.    
 [LEER MAS](es/bonus/02_archivo_changelog.md)
 
-## BONUS 3: El Archivo WIDGETTREE.md 
+## BONUS 3: El Archivo WIDGETTREE.md  // TODO
 Este archivo te servirá para llevar un control de los cambios que hay en tu código.    
 [LEER MAS ](es/bonus/03_archivo%20widgettree.md)
 
-## Bonus 4: Material Necesario para publicar en las Stores (Google Play / Apple Store)
+## Bonus 4: Material Necesario para publicar en las Stores (Google Play / Apple Store) // TODO
 Aquí encontraras el material básico que necesitas para publicar tus apps en las stores (No es una guía de publicación)   
 [LEER MAS](es/bonus/04_materiales_stores.md)
 
-# Tutoriales
+# Tutoriales // TODO
 una practica sección con tutoriales de cosas que pasan seguido  
-// TODO
+
 
 
 
