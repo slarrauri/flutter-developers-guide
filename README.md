@@ -1,6 +1,9 @@
 # Flutter-Developer-Guide
 
-Este repositorio contiene documentación sobre, mejores practicas, guía de estilos, uso de git y git flow, para el desarrollo de aplicaciones Flutter robustas, escalables y mantenibles. 
+El propósito de este documento es servir de guía a los equipos de desarrollo en el proceso de la construcción de software, estable, mantenible, robusto y escalable con Dart y Flutter.
+
+Para tal fin se ha recopilado en este documento los lineamientos iniciales a tener en cuenta a la hora de encarar el desarrollo de un proyecto Flutter. 
+
 
     - Si te gusto, recuerda darle una estrella. 
     - Si quieres contribuir
