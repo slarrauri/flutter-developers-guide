@@ -4,8 +4,8 @@ El propósito de este documento es servir de guía a los equipos de desarrollo e
 
 Para tal fin se ha recopilado en este documento los lineamientos iniciales a tener en cuenta a la hora de encarar el desarrollo de un proyecto Flutter. 
 
-    - Si te gusto, recuerda darle una estrella. 
-    - Si quieres contribuir, todavía esta en //TODO, la guia para contribuir, pero dale al Follow, Estrellita, DM y coordinamos. 
+  - Si te gusto, recuerda darle una estrella. 
+  - Si quieres contribuir, todavía esta en //TODO, la guia para contribuir, pero dale al Follow, Estrellita, DM y coordinamos. 
 
 **Contenido**: 
 
