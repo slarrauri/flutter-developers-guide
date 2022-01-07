@@ -6,7 +6,7 @@ Para tal fin se ha recopilado en este documento los lineamientos iniciales a ten
 
 
     - Si te gusto, recuerda darle una estrella. 
-    - Si quieres contribuir
+    - Si quieres contribuir DM
 
 **Contenido**: 
 
