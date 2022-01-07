@@ -5,6 +5,9 @@ En la misma veremos el formato a utilizar para escribir los commits y crear bran
 
 Es importante mantener esta estructura ya que se utiliza para generar el versionado y changelog del proyecto. 
 
+> [!CAUTION]
+> Recuerda siempre actualizar la branch develop y crear nuevas branches desde develop actualizado, para inciar tus desarrollos. 
+
 - [Git & Git Flow](#git--git-flow)
   - [Convenciones de estilo](#convenciones-de-estilo)
   - [Branches](#branches)
