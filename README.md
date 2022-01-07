@@ -4,9 +4,8 @@ El propósito de este documento es servir de guía a los equipos de desarrollo e
 
 Para tal fin se ha recopilado en este documento los lineamientos iniciales a tener en cuenta a la hora de encarar el desarrollo de un proyecto Flutter. 
 
-
     - Si te gusto, recuerda darle una estrella. 
-    - Si quieres contribuir DM
+    - Si quieres contribuir, todavía esta en //TODO, la guia para contribuir, pero dale al Follow, Estrellita, DM y coordinamos. 
 
 **Contenido**: 
 
@@ -17,6 +16,7 @@ Para tal fin se ha recopilado en este documento los lineamientos iniciales a ten
   - [03. guía de Estilos](#03-guía-de-estilos)
   - [04. Buenas Practicas](#04-buenas-practicas)
   - [05. Git & Git Flow](#05-git--git-flow)
+  - [06 CI/CD // TODO](#06-cicd--todo)
 - [BONUS](#bonus)
   - [BONUS01. El archivo README.md](#bonus01-el-archivo-readmemd)
   - [BONUS 2: El Archivo CHANGELOG.md](#bonus-2-el-archivo-changelogmd)
@@ -50,7 +50,9 @@ Si ya sabes los comandos básicos de Git y el funcionamiento de Git Flow.
 Aquí explico como los usamos en los equipos de desarrollo.  
 [LEER MAS](es/guia/05_git_git_flow.md)
 
-
+## 06 CI/CD // TODO
+Guía para configurar un entorno CI/CD simple y efectivo. 
+[LEER MAS](es/guia/06_ci_cd.md)
 # BONUS
 
 ## BONUS01. El archivo README.md 
@@ -70,8 +72,7 @@ Aquí encontraras el material básico que necesitas para publicar tus apps en la
 [LEER MAS](es/bonus/04_materiales_stores.md)
 
 # Tutoriales // TODO
-una practica sección con tutoriales de cosas que pasan seguido  
-
+una practica sección con tutoriales de cosas que pasan seguido.  
 
 
 
