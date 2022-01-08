@@ -1,4 +1,4 @@
-# Flutter-Developer-Guide
+# Flutter Developer Guide
 
 El propósito de este documento es servir de guía a los equipos de desarrollo en el proceso de la construcción de software, estable, mantenible, robusto y escalable con Dart y Flutter.
 
@@ -8,23 +8,26 @@ Para tal fin se ha recopilado en este documento los lineamientos iniciales a ten
   - Si quieres contribuir, todavía esta en //TODO, la guía para contribuir, pero dale al Follow, Estrellita, DM y coordinamos. 
 
 **Contenido**: 
+01.  Guiá Desarrollo Flutter
+  - [00. Cheatsheet](es/guia/00_cheatsheet.md)
+  - [01. Basic Dart // TODO](es/guia/01_dart_basico.md)
+  - [02. Basic Flutter // TODO](es/guia/02_flutter_basico.md)
+  - [03. guía de Estilos](es/guia/03_guia_de_estilos.md)
+  - [04. Buenas Practicas](es/guia/04_buenas_practicas.md)
+  - [05. Git & Git Flow](es/guia/05_git_git_flow.md)
+  - [06 CI/CD // TODO](es/guia/06_ci_cd.md)
+  
+02.  Bonus
+  - [01. El archivo README.md](es/bonus/01_archivo_readme.md)
+  - [02: El Archivo CHANGELOG.md](es/bonus/02_archivo_changelog.md)
+  - [03: El Archivo WIDGETTREE.md  // TODO](es/bonus/03_archivo_widgettree.md)
+  - [04: Material Necesario para publicar en las Stores (Google Play / Apple Store)](es/bonus/04_materiales_stores.md)
+  - [05: Ejemplos:](es/bonus/05_ejemplos.md)
+  
+03. [Enlaces Interesantes](#enlaces-interesantes)
 
-- [Flutter-Developer-Guide](#flutter-developer-guide)
-  - [00. Cheatsheet](#00-cheatsheet)
-  - [01. Basic Dart // TODO](#01-basic-dart--todo)
-  - [02. Basic Flutter // TODO](#02-basic-flutter--todo)
-  - [03. guía de Estilos](#03-guía-de-estilos)
-  - [04. Buenas Practicas](#04-buenas-practicas)
-  - [05. Git & Git Flow](#05-git--git-flow)
-  - [06 CI/CD // TODO](#06-cicd--todo)
-- [BONUS](#bonus)
-  - [BONUS01. El archivo README.md](#bonus01-el-archivo-readmemd)
-  - [BONUS 2: El Archivo CHANGELOG.md](#bonus-2-el-archivo-changelogmd)
-  - [BONUS 3: El Archivo WIDGETTREE.md  // TODO](#bonus-3-el-archivo-widgettreemd---todo)
-  - [Bonus 4: Material Necesario para publicar en las Stores (Google Play / Apple Store) // TODO](#bonus-4-material-necesario-para-publicar-en-las-stores-google-play--apple-store--todo)
-- [Tutoriales // TODO](#tutoriales--todo)
-- [Enlaces Interesantes](#enlaces-interesantes)
 
+# Flutter Developer Guide
 
 ## 00. Cheatsheet
 Una guía para consulta rápida de los puntos tratados en los otros documentos.  
@@ -51,50 +54,52 @@ Si ya sabes los comandos básicos de Git y el funcionamiento de Git Flow.
 Aquí explico como los usamos en los equipos de desarrollo.  
 [LEER MAS](es/guia/05_git_git_flow.md)
 
-## 06 CI/CD // TODO
+## 06. CI/CD // TODO
 Guía para configurar un entorno CI/CD simple y efectivo. 
 [LEER MAS](es/guia/06_ci_cd.md)
+
+
 # BONUS
 
-## BONUS01. El archivo README.md 
+## 01. El archivo README.md 
 El archivo README.md de tus aplicaciones flutter, es una herramienta muy util para transmitir información al equipo de desarrollo.   
 [LEER MAS](es/bonus/01_archivo_readme.md)
 
-## BONUS 2: El Archivo CHANGELOG.md 
+## 02. El Archivo CHANGELOG.md 
 Este archivo te servirá para llevar un control de los cambios que hay en tu código.    
 [LEER MAS](es/bonus/02_archivo_changelog.md)
 
-## BONUS 3: El Archivo WIDGETTREE.md  // TODO
+## 03. El Archivo WIDGETTREE.md  // TODO
 Este archivo te servirá para llevar un control de los cambios que hay en tu código.    
-[LEER MAS ](es/bonus/03_archivo%20widgettree.md)
+[LEER MAS ](es/bonus/03_archivo_widgettree.md)
 
-## Bonus 4: Material Necesario para publicar en las Stores (Google Play / Apple Store) // TODO
+## 04. Material Necesario para publicar en las Stores (Google Play / Apple Store) // TODO
 Aquí encontraras el material básico que necesitas para publicar tus apps en las stores (No es una guía de publicación)   
 [LEER MAS](es/bonus/04_materiales_stores.md)
 
+## 05. Ejemplos: 
+Flutter viene con una gran variedad de ejemplos que puedes utilizar. En esta sección descubrirás como utilizarlos.   
+[LEER MAS](es/bonus/04_materiales_stores.md)  
 
-
-# Tutoriales // TODO
-una practica sección con tutoriales de cosas que pasan seguido.  
 
 # Enlaces Interesantes
-- Flutter Gems: Colección de paquetes útiles.  
-  https://fluttergems.dev/ 
+- **Flutter Gems**: Colección de paquetes útiles.   
+  https://fluttergems.dev/  
 
-- A curated list of samples  
-- https://github.com/flutter/samples/blob/d500d15c0f098b56e5bd549b32485cedba4843ef/INDEX.md#flutter-examples--
+- **Flutter Architecture samples**: Ejemplos de una  Flutter App utilizando distintas arquitecturas.   
+  https://github.com/brianegan/flutter_architecture_samples   
 
-- Flutter Architecture samples
-  https://github.com/brianegan/flutter_architecture_samples 
+- **Awesome Flutter**: Una lista con Librerías, herramientas, tutoriales y más.  
+  https://github.com/Solido/awesome-flutter  
 
-- Awesome Flutter:  
-  https://github.com/Solido/awesome-flutter
+- **Lista Oficial de ejemplos**:  
+  https://github.com/flutter/samples/blob/d500d15c0f098b56e5bd549b32485cedba4843ef/INDEX.md  
 
-- DartPad: Entorno de desarrollo Flutter/Dart online.  
-  https://dartpad.dev/
+- **DartPad**: Entorno de desarrollo Flutter/Dart online.   
+  https://dartpad.dev/  
 
-- Dart cheatsheet codelab.  
-  https://dart.dev/codelabs/dart-cheatsheet
+- **Dart cheatsheet codelab**:    
+  https://dart.dev/codelabs/dart-cheatsheet  
 
 
 
