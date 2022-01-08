@@ -5,7 +5,7 @@ El propósito de este documento es servir de guía a los equipos de desarrollo e
 Para tal fin se ha recopilado en este documento los lineamientos iniciales a tener en cuenta a la hora de encarar el desarrollo de un proyecto Flutter. 
 
   - Si te gusto, recuerda darle una estrella. 
-  - Si quieres contribuir, todavía esta en //TODO, la guia para contribuir, pero dale al Follow, Estrellita, DM y coordinamos. 
+  - Si quieres contribuir, todavía esta en //TODO, la guía para contribuir, pero dale al Follow, Estrellita, DM y coordinamos. 
 
 **Contenido**: 
 
@@ -23,6 +23,7 @@ Para tal fin se ha recopilado en este documento los lineamientos iniciales a ten
   - [BONUS 3: El Archivo WIDGETTREE.md  // TODO](#bonus-3-el-archivo-widgettreemd---todo)
   - [Bonus 4: Material Necesario para publicar en las Stores (Google Play / Apple Store) // TODO](#bonus-4-material-necesario-para-publicar-en-las-stores-google-play--apple-store--todo)
 - [Tutoriales // TODO](#tutoriales--todo)
+- [Enlaces Interesantes](#enlaces-interesantes)
 
 
 ## 00. Cheatsheet
@@ -71,12 +72,29 @@ Este archivo te servirá para llevar un control de los cambios que hay en tu có
 Aquí encontraras el material básico que necesitas para publicar tus apps en las stores (No es una guía de publicación)   
 [LEER MAS](es/bonus/04_materiales_stores.md)
 
+
+
 # Tutoriales // TODO
 una practica sección con tutoriales de cosas que pasan seguido.  
 
 # Enlaces Interesantes
+- Flutter Gems: Colección de paquetes útiles.  
+  https://fluttergems.dev/ 
 
-https://fluttergems.dev/ 
+- A curated list of samples  
+- https://github.com/flutter/samples/blob/d500d15c0f098b56e5bd549b32485cedba4843ef/INDEX.md#flutter-examples--
+
+- Flutter Architecture samples
+  https://github.com/brianegan/flutter_architecture_samples 
+
+- Awesome Flutter:  
+  https://github.com/Solido/awesome-flutter
+
+- DartPad: Entorno de desarrollo Flutter/Dart online.  
+  https://dartpad.dev/
+
+- Dart cheatsheet codelab.  
+  https://dart.dev/codelabs/dart-cheatsheet
 
 
 
