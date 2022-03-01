@@ -5,6 +5,7 @@ En este documento se detallan las buenas prácticas que el equipo de desarrollo 
 Sin nada más que agregar, ¡A darle Átomos!
 
 - [Buenas Practicas Flutter](#buenas-practicas-flutter)
+  - [Pubspec File](#pubspec-file)
   - [readme File](#readme-file)
   - [Changelog File](#changelog-file)
   - [Control de Versiones](#control-de-versiones)
@@ -20,6 +21,18 @@ Sin nada más que agregar, ¡A darle Átomos!
   - [Extract Method](#extract-method)
   - [List Builder](#list-builder)
   - [Arquitectura BLOC](#arquitectura-bloc)
+
+
+## Pubspec File
+En este archivo se debe agregar la version de Flutter que esta usando el proyecto. Esto es opcional en algunas versiones de FLutter y en otras no se puede realizar, cuando no se pueda, agregarlo como un comentario.
+
+```yaml
+(...)
+dependencies:
+  flutter:
+    sdk: flutter ^2.0.0
+  (...)
+```
 
 ## readme File
 El proyecto debe contar con un archivo readme.md
