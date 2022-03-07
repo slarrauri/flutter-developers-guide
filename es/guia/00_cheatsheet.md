@@ -6,6 +6,31 @@ Sino estas familizarizado te recomendamos leer las guias completas antes de come
 
 // TODO: Agregar los enlaces a las guias completas. 
 
+## Keyboard Shortcuts Reference
+
+### 
+
+### IntelliJ IDEA / Android Studio
+
+[MacOs](https://www.jetbrains.com/help/idea/reference-keymap-mac-default.html)  
+
+[Windows/Linux](https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA_ReferenceCard.pdf)  
+
+[Flutter IDE cheat sheet MacOS](https://docs.flutter.dev/resources/Flutter-IntelliJ-cheat-sheet-MacOS.pdf)  
+
+[Flutter IDE cheat sheet Windows & Linux](https://docs.flutter.dev/resources/Flutter-IntelliJ-cheat-sheet-WindowsLinux.pdf)  
+
+### Visual Studio Code
+
+[Windows](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf)  
+
+[MacOs](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf)  
+
+[Linux](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf)  
+
+[Flutter IDE cheat sheet Windows & Linux](https://medium.com/flutter-community/flutter-visual-studio-code-shortcuts-for-fast-and-efficient-development-7235bc6c3b7d)  
+
+
 ## Formato Nombres
 
 Como escribir:
