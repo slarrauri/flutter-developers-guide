@@ -76,6 +76,18 @@ Para generar documentación usamos dartdoc. Esto genera una página web con la d
 
 Para que dartdoc funcione, todos los comentarios que sean parte de la documentación deben iniciar con ///
 
+Como comentar Clases:
+
+```dart
+/// Clase para el manejo de todas las rutas del proyecto
+class Routes {
+
+}
+```
+Las Clases se comentan arriba desde donde empieza a definirse. 
+Los metodos Igual
+Los Widget se docuentan en la primer linea dentro del widget, para seguir un mismom paro comcumentamos por fuera y usamos template. 
+
 
 
 **Activar DartDocs**
