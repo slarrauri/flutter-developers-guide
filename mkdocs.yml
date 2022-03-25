@@ -132,14 +132,10 @@ nav:
   - Home: index.md
   - Flutter Developer Guide:
     - es/guia/index.md
-    - 00. Cheatsheet: es/guia/00_cheatsheet.md
-    - 01. Basic Dart: es/guia/01_dart_basico.md
-    - 02. Basic Flutter: es/guia/02_flutter_basico.md
-    - 03. guía de Estilos: es/guia/03_guia_de_estilos.md
-    - 04. Buenas Practicas: es/guia/04_buenas_practicas.md
-    - 05. Git & Git Flow: es/guia/05_git_git_flow.md
-    - 06 CI/CD: es/guia/06_ci_cd.md
-    - 07 Documentacion: es/guia/documentacion.md
+    - Cheatsheet: es/guia/00_cheatsheet.md
+    - guía de Estilos: es/guia/03_guia_de_estilos.md
+    - Buenas Practicas: es/guia/04_buenas_practicas.md
+    - Git & Git Flow: es/guia/05_git_git_flow.md
   - Bonus:
     - es/bonus/index.md
     - 01. El archivo README.md: es/bonus/01_archivo_readme.md
