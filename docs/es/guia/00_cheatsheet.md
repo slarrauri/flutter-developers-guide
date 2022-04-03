@@ -1,39 +1,10 @@
-# 00. Flutter Technical Documentation CheatSheet
+# Flutter Developer Guide CheatSheet
 
-Este archivo sirve para consulta rápida sobre formato de nombres, branch, commits y estimación de tareas.
+!!! info "Este archivo sirve para consulta rápida sobre formato de nombres, branch, commits y estimación de tareas."
 
-Sino estas familizarizado te recomendamos leer las guias completas antes de comenzar a utilizar este CheatSheet. 
+!!! warning "Sino estas familizarizado te recomendamos leer las guias completas antes de comenzar a utilizar este CheatSheet." 
 
-// TODO: Agregar los enlaces a las guias completas. 
-
-## Keyboard Shortcuts Reference
-
-### 
-
-### IntelliJ IDEA / Android Studio
-
-[MacOs](https://www.jetbrains.com/help/idea/reference-keymap-mac-default.html)  
-
-[Windows/Linux](https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA_ReferenceCard.pdf)  
-
-[Flutter IDE cheat sheet MacOS](https://docs.flutter.dev/resources/Flutter-IntelliJ-cheat-sheet-MacOS.pdf)  
-
-[Flutter IDE cheat sheet Windows & Linux](https://docs.flutter.dev/resources/Flutter-IntelliJ-cheat-sheet-WindowsLinux.pdf)  
-
-### Visual Studio Code
-
-[Windows](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf)  
-
-[MacOs](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf)  
-
-[Linux](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf)  
-
-[Flutter IDE cheat sheet Windows & Linux](https://medium.com/flutter-community/flutter-visual-studio-code-shortcuts-for-fast-and-efficient-development-7235bc6c3b7d)  
-
-
-## Formato Nombres
-
-Como escribir:
+## Convenciones de nombres
 
 - Directorios y carpetas: ``snake_case``  
 - Archivos: ``snake_case``  
@@ -43,9 +14,6 @@ Como escribir:
 - Clases, Enums, TypeDef, extentiones: ``UpperCamelCase``  
 - Funciones y Métodos: ``lowerCamelCase``  
 - Variables, Argumentos, Propiedades: ``lowerCamelCase``  
-
-Para un descripción completa mira la Guía de Estilos Flutter
-
 
 ## Tipos de Commits
 
@@ -58,7 +26,7 @@ Prefijos que utilizamos al realizar commits.
 - ``refactor``: Refactor en el Código
 - ``deprecate``: Código que esta destinado a desaparecer, pero que aun se usa. 
 - ``delete``: Código que se elimino del repositorio. 
-- ``style``: Cambios en el codigo que mejoran su lectura.  
+- ``style``: Cambios en el codigo que mejoran su lectura.
 
 ## Scope de Commits
 
@@ -67,28 +35,28 @@ El Scope de los commits varia dependiendo de la arquitectura del proyecto, pero 
 ## Prefijos de Branches
 
 ### Permanentes
-- master/ main/
-- qa/
-- test/
-- production/
-- development/ develop/
+    - master/ main/
+    - qa/
+    - test/
+    - production/
+    - development/ develop/
 
 ### Temporales
-- feature/ 
-- bugfix/ 
-- fix/ 
-- hotfix/
-- change/ 
-- update/
-- remove/
-- merge/
-- experimental/
-- build/
-- release/
-- deprecate/
-- security/
-- performance/
-- cicd/
+    - feature/ 
+    - bugfix/ 
+    - fix/ 
+    - hotfix/
+    - change/ 
+    - update/
+    - remove/
+    - merge/
+    - experimental/
+    - build/
+    - release/
+    - deprecate/
+    - security/
+    - performance/
+    - cicd/
 
 
 ## Estimación de Tareas
@@ -106,3 +74,20 @@ El cual utiliza la sucesion de Fibonachi
 | 8          | Una semana            | 
 | 13         | Una semana y media    | 
 | 21         | Dos semanas o mas     | 
+
+## Keyboard Shortcuts Reference
+
+### IntelliJ IDEA / Android Studio
+
+[MacOs](https://www.jetbrains.com/help/idea/reference-keymap-mac-default.html)  
+[Windows/Linux](https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA_ReferenceCard.pdf)  
+[Flutter IDE cheat sheet MacOS](https://docs.flutter.dev/resources/Flutter-IntelliJ-cheat-sheet-MacOS.pdf)  
+[Flutter IDE cheat sheet Windows & Linux](https://docs.flutter.dev/resources/Flutter-IntelliJ-cheat-sheet-WindowsLinux.pdf)  
+
+### Visual Studio Code
+
+[Windows](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf)  
+[MacOs](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf)  
+[Linux](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf)  
+[Flutter IDE cheat sheet Windows & Linux](https://medium.com/flutter-community/flutter-visual-studio-code-shortcuts-for-fast-and-efficient-development-7235bc6c3b7d)    
+
