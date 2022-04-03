@@ -2,19 +2,17 @@
 
 
 # Project information
-site_name: Dart & Flutter
-site_url: https://slarrauri.github.io/testing-mkdocs-material/
+site_name: Flutter Developer Guide
+site_url: https://slarrauri.github.io/flutter-developers-guide/
 site_author: Sebastian Larrauri
 site_description: >-
-  Aprende a programar utilizando el lenguaje dart 
-  conocerás como crear aplicaciones para multiples dispositivos; 
-  Web, Mobile, Desktop y IOT, 
-  como también programas del lado del servidor 
-  como APIs, desarrollo backend y Aplicaciones Frontend con Flutter. 
+  El propósito de este sitio web es servir de guía a los equipos de desarrollo 
+  en el proceso de la construcción de software, 
+  estable, robusto, mantenible y escalable con Dart y Flutter.
 
 # Repository
-repo_name: slarrauri/testing-mkdocs-material
-repo_url: https://github.com/slarrauri/testing-mkdocs-material
+repo_name: slarrauri/flutter-developers-guide
+repo_url: https://github.com/slarrauri/flutter-developers-guide
 edit_uri: ""
 
 # Copyright
@@ -34,7 +32,7 @@ theme:
   search_index_only: true
 
   # Default values, taken from mkdocs_theme.yml
-  language: en
+  language: es
   features:
     - content.code.annotate
     # - content.tabs.link
@@ -54,14 +52,14 @@ theme:
     # - toc.integrate
   palette:
     - scheme: slate
-      primary: light blue
-      accent: light blue
+      primary: blue
+      accent: blue
       toggle:
         icon: material/weather-sunny
         name: Switch to light mode
     - scheme: default
-      primary: indigo
-      accent: indigo
+      primary: blue
+      accent: blue
       toggle:
         icon: material/weather-night
         name: Switch to dark mode
@@ -86,7 +84,7 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/slarrauri
     - icon: fontawesome/brands/twitter
-      link: https://twitter.com/squidfunk
+      link: https://twitter.com/slarrauri
 
 # Extensions
 markdown_extensions:
@@ -132,18 +130,21 @@ markdown_extensions:
 # NAVIGATION
 nav:
   - Home: index.md
-  - Comencemos:
-    - Comencemos: comencemos.md
-    - Dart: dart.md
-    - Flutter: flutter.md
-    - Contenidos: contenidos.md
-    - Changelog: changelog.md
-  - Dart:
-    - dart/index.md
-  - Flutter:
-    - flutter/index.md
-  - Git: git.md
-  - Scrum: scrum.md
+  - Flutter Developer Guide:
+    - es/guia/index.md
+    - Cheatsheet: es/guia/01_cheatsheet.md
+    - Dart Básico: es/guia/02_dart_basico.md
+    - Flutter Básico: es/guia/03_flutter_basico.md
+    - Guía de Estilos: es/guia/04_guia_de_estilos.md
+    - Buenas Practicas: es/guia/05_buenas_practicas.md
+    - Git & Git Flow: es/guia/06_git_git_flow.md
+    - Continues Integration / Continues Delivery: es/guia/07_ci_cd.md
+    - El Archivo Readme: es/guia/08_archivo_readme.md
+    - El Archivo Changelog: es/guia/09_archivo_changelog.md
+    - El Widget Tree: es/guia/10_archivo_widgettree.md
+    - Materiales para las Stores: es/guia/11_materiales_stores.md
+    - Flutter / Dart Sample: es/guia/12_ejemplos.md
+    - Enlaces Interesantes: es/guia/13_enlaces_interesantes.md
 #  - Tutoriales:
 #    - tutoriales/index.md
 #    - 2022:
