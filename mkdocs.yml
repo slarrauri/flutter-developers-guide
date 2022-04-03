@@ -132,27 +132,19 @@ nav:
   - Home: index.md
   - Flutter Developer Guide:
     - es/guia/index.md
-    - Cheatsheet: es/guia/00_cheatsheet.md
-    - Dart Básico: es/guia/01_dart_basico.md
-    - Flutter Básico: es/guia/02_flutter_basico.md
-    - Guía de Estilos: es/guia/03_guia_de_estilos.md
-    - Buenas Practicas: es/guia/04_buenas_practicas.md
-    - Git & Git Flow: es/guia/05_git_git_flow.md
-    - Continues Integration / Continues Delivery: es/guia/06_ci_cd.md
-    - El Archivo Readme: es/guia/07_archivo_readme.md
-    - El Archivo Changelog: es/guia/08_archivo_changelog.md
-    - El Widget Tree: es/guia/09_archivo_widgettree.md
-    - Materiales para las Stores: es/guia/10_materiales_stores.md
-    - Flutter / Dart Sample: es/guia/11_ejemplos.md
-    - Enlaces de Interes: es/guia/05_git_git_flow.md
-  - Bonus:
-    - es/bonus/index.md
-    - 01. El archivo README.md: es/bonus/07_archivo_readme.md
-    - 02. El Archivo CHANGELOG.md: es/bonus/08_archivo_changelog.md
-    - 03. El Archivo WIDGETTREE.md: es/bonus/09_archivo_widgettree.md
-    - 04. Guia Google Play: es/bonus/10_materiales_stores.md
-    - 05. Guia Apple Store: es/bonus/10_materiales_stores.md
-    - 06. Ejemplos: es/bonus/11_ejemplos.md
+    - Cheatsheet: es/guia/01_cheatsheet.md
+    - Dart Básico: es/guia/02_dart_basico.md
+    - Flutter Básico: es/guia/03_flutter_basico.md
+    - Guía de Estilos: es/guia/04_guia_de_estilos.md
+    - Buenas Practicas: es/guia/05_buenas_practicas.md
+    - Git & Git Flow: es/guia/06_git_git_flow.md
+    - Continues Integration / Continues Delivery: es/guia/07_ci_cd.md
+    - El Archivo Readme: es/guia/08_archivo_readme.md
+    - El Archivo Changelog: es/guia/09_archivo_changelog.md
+    - El Widget Tree: es/guia/10_archivo_widgettree.md
+    - Materiales para las Stores: es/guia/11_materiales_stores.md
+    - Flutter / Dart Sample: es/guia/12_ejemplos.md
+    - Enlaces Interesantes: es/guia/13_enlaces_interesantes.md
 #  - Tutoriales:
 #    - tutoriales/index.md
 #    - 2022:
